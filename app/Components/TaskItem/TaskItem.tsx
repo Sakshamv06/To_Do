@@ -50,7 +50,6 @@ function TaskItem({ title, description, date, isCompleted, id }: Props) {
             Incomplete
           </button>
         )}
-        <button className="edit">{edit}</button>
         <button
           className="delete"
           onClick={() => {
@@ -101,7 +100,7 @@ const TaskItemStyled = styled.div`
       }
     }
 
-    .edit {
+    .delete {
       margin-left: auto;
     }
 
